@@ -33,8 +33,13 @@ mat = [
     [7, 9, 11],
     [13, 15, 17]
 ]
+# mat = [
+# [1, 4, 7],
+# [2, 5, 8],
+# [3, 6, 9]
+# ]
 
-print(search(mat, 11))
+print(search(mat,11))
 
 '''
 The third method, "Treat the Matrix as a Sorted One-Dimensional Array O(log(mn))", can fail when the given matrix is sorted row-wise and column-wise, but not globally sorted.
