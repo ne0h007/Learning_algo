@@ -30,7 +30,7 @@ def longestSubarray(nums):
     zero_count = 0
     max_length = 0
 
-    for right in range(len(nums)):
+    for right in range(len(nums)):   # [0,1,1,1,0,1,1,0,1]
         if nums[right] == 0:
             zero_count += 1
 
